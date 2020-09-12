@@ -187,6 +187,10 @@ div {
     margin-bottom: 10px;
 }
 
+.optimization .optimization-text p:last-child {
+    margin-bottom: 0;
+}
+
 .optimization .optimization-text p strong {
     font-family: "Roboto - Bold", sans-serif;
     font-weight: 700;
