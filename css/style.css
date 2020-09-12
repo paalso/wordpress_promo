@@ -164,8 +164,32 @@ div {
     font-weight: 300;
     line-height: 21px;
 }
+
 .optimization {
     padding: 102px 0 107px 0;
+    background-image: url("../img/pretty_girl.png");
+    background-size: 868px;
+    background-repeat: no-repeat;
+    background-position: 150px 48px;
+}
+
+.optimization .optimization-text {
+    width: 750px;
+    margin-left: auto;
+    color: #4a4a4a;
+    /* font-family: Roboto; */
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.optimization .optimization-text p {
+    margin-bottom: 10px;
+}
+
+.optimization .optimization-text p strong {
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
 }
 
 .optimization h2 {
@@ -175,13 +199,4 @@ div {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
-}
-
-.optimization .optimization-text {
-    width: 750px;
-    color: #4a4a4a;
-    /* font-family: Roboto; */
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 27px;
 }
