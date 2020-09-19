@@ -4,15 +4,12 @@
     margin: 0;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-}
+html { font-family: "Roboto", sans-serif; }
 
 .d-flex { display: flex; }
 
 h2 {
     margin-bottom: 18px;
-    /* font-family: Roboto; */
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -50,8 +47,7 @@ h2 {
 
 .promo .title {
     font-size: 41px;
-    font-family: "Roboto - Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: #f9bf3b;
     text-transform: uppercase;
 }
@@ -73,10 +69,9 @@ h2 {
 
 .promo .big-title-text {
     padding: 0 20px;
-    font-family: "Roboto - Black", sans-serif;
     font-size: 80px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     white-space: nowrap;        /* какие то костыли пошли*/
 }
@@ -85,14 +80,12 @@ h2 {
 
 .promo .promo-text {
     margin-bottom: 73px;
-    font-family: "Roboto Light", sans-serif;
     font-size: 21px;
     font-weight: 300;
     color: #ffffff;
 }
 
 .promo .promo-text span {
-    font-family: "Roboto Bold", sans-serif;
     font-weight: 700;
     color: #f9bf3b;
 }
@@ -117,9 +110,8 @@ h2 {
 
 .promo .more-text {
     margin-bottom: 13px;
-    font-family: "Roboto - Thin", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -139,14 +131,12 @@ h2 {
     width: 217px;
     height: 4px;
     margin: 0 auto 17px auto;
-    color: #f9bf3b;
     background-color: #f9bf3b;
     border: none;
 }
 
 .expectations h3 {
     margin-bottom: 45px;
-    /* font-family: Roboto; */
     font-size: 23px;
     font-weight: 400;
     color: #4a4a4a;
@@ -162,7 +152,6 @@ h2 {
 }
 
 .expectations .curriculum-text {
-    /* font-family: Roboto; */
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -177,13 +166,12 @@ h2 {
 .optimization .optimization-text {
     position: relative;
     width: 750px;
-    /* min-height: 550px; */
     margin-left: auto;
-    /* font-family: Roboto; */
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
     color: #4a4a4a;
+    text-align: justify;
 }
 
 .optimization-text img {
@@ -197,9 +185,8 @@ h2 {
 
 .optimization h2 {
     margin-bottom: 25px;
-    font-family: "Roboto - Black", sans-serif;
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     color: #299cbd;
 }
@@ -208,10 +195,7 @@ h2 {
 
 .optimization .optimization-text p:last-child { margin-bottom: 0; }
 
-.optimization .optimization-text p strong {
-    font-family: "Roboto - Bold", sans-serif;
-    font-weight: 700;
-}
+.optimization .optimization-text p strong { font-weight: 700; }
 
 .achievments { background: url("../img/bg/achievements_bg.png") center center/cover no-repeat; }
 
@@ -241,13 +225,10 @@ h2 {
     width: 196px;
     height: 53px;
     color: #efefef;
-    /* font-family: Roboto; */
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
 }
-
-/* .bonuses { margin-bottom: 116px; } */
 
 .bonuses img {
     width: 154px; 
@@ -256,7 +237,6 @@ h2 {
 
 .bonuses .bonuses-text {
     margin-bottom: 52px;
-    /* font-family: Roboto; */
     font-size: 30px;
     font-weight: 400;
     line-height: 43px;
@@ -267,15 +247,13 @@ h2 {
 
 .time .time-text {
     margin-bottom: 25px;
-    font-family: "Roboto - Black", sans-serif;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 700;
     color: #299cbd;
     text-transform: uppercase;
 }
 
 .time .hurry-text {
-    /* font-family: Roboto; */
     font-size: 23px;
     font-weight: 400;
     color: #4a4a4a;
@@ -288,8 +266,6 @@ h2 {
 }
 
 .main-footer .footer-text {
-    /* font-family: Roboto; */
-    font-size: 15px;
     font-weight: 300;
     line-height: 25px;
     color: #888888;
