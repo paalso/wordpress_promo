@@ -265,11 +265,11 @@ h2 {
     background-color: #1a1a1a;
 }
 
-.main-footer .footer-text {
+.main-footer .footer-text,
+.main-footer .footer-text a {
     font-weight: 300;
     line-height: 25px;
     color: #888888;
 }
 
-.main-footer .footer-text span { text-decoration: underline; }
-
+.main-footer .footer-text a { text-decoration: underline; }
