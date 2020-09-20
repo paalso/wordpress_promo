@@ -27,7 +27,11 @@
 }
 
 @font-face {
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Black';
+>>>>>>> ad60bdad3d2a6ee5b9e3e793e60078df96c90753
     src: url('../fonts/Roboto-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
